@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.btn-secondary, .btn-primary {
+  background-color: #141313;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-primary {
+  padding: 15px 20px;
+}
+
+.btn-secondary {
+  padding: 5px;
+}
+
+@font-face {
+  font-family: "Gilroy", monospace;
+  src: local("Gilroy"), local("Gilroy"), url(Gilroy-FREE/Gilroy-ExtraBold.otf) format("opentype"), url(Gilroy-FREE/Gilroy-Light.otf) format("opentype");
+}
+* {
+  box-sizing: border-box;
+  font-family: "Gilroy", monospace;
+  margin: 0;
+  padding: 0;
+}
+* a {
+  text-decoration: none;
+}
+
+/* header section styles*/
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-image: url(../Images/logo.png);
+  background-repeat: no-repeat;
+  background-position: 110px -60px;
+}
+
+nav {
+  display: flex;
+  margin-left: 300px;
+  margin-top: 18px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav ul li {
+  padding: 10px 40px;
+}
+nav ul li a {
+  color: #141313;
+  font-size: 14px;
+}
+nav button {
+  margin: auto;
+  background-color: #fff;
+  border: 1px solid #141313;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+/*body section begins*/
+main {
+  width: 100%;
+  margin-top: 150px;
+}
+main .container {
+  width: 80%;
+  margin: auto;
+}
+main .container #first-mother-ctn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+main .container #first-mother-ctn h5 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+main .container #first-mother-ctn h2 {
+  margin-top: 0;
+  color: #141313;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 10;
+}
+main .container #first-mother-ctn .exp-section {
+  width: 98%;
+}
+main .container #first-mother-ctn p {
+  width: 88%;
+  margin-top: 10px;
+  margin-bottom: 0;
+  position: relative;
+  text-align: justify;
+  z-index: 10;
+}
+main .container #first-mother-ctn p span {
+  width: 50%;
+}
+main .container #first-mother-ctn button {
+  margin-top: 15px;
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+}
+main .container #first-mother-ctn .eclipse-sh {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 320px;
+  left: 110px;
+  background: rgba(84, 66, 255, 0.1);
+  filter: blur(350px);
+  position: absolute;
+  z-index: 9;
+}
+main .container .profile-img-ctn .hire-me-box {
+  width: 150px;
+  border: 1px solid #141313;
+  text-align: center;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 12;
+  background-color: #fff;
+  bottom: -90px;
+  left: 740px;
+}
+main .container .profile-img-ctn .hire-me-box div {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: -25px;
+  border: 1px solid #141313;
+}
+main .container .profile-img-ctn .hire-me-box div img {
+  position: absolute;
+  width: 20px;
+  margin-top: 5px;
+}
+main .container .profile-img-ctn .hire-me-box h5 {
+  margin-top: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+main .container .profile-img-ctn .hire-me-box h6 {
+  margin-top: 2px;
+  margin-bottom: 7px;
+}
+main .container .profile-img-ctn .img-ctn {
+  position: relative;
+  height: auto;
+  border-radius: 25% 25% 0 0;
+  z-index: 10;
+  overflow: clip;
+}
+main .container .profile-img-ctn .img-ctn img {
+  position: relative;
+  width: 400px;
+  height: 430px;
+  border-radius: 25% 25% 0 0;
+  z-index: 8;
+  margin-bottom: -10px;
+  padding: 0;
+}
+main .container .profile-img-ctn .img-ctn #transparent-1 {
+  width: 800px;
+  height: 30%;
+  background-color: black;
+  position: absolute;
+  z-index: 9;
+  margin: 0;
+  bottom: 68%;
+  left: -40%;
+  transform: rotate(-40deg);
+  background: linear-gradient(75.76deg, #46FF42 -7.34%, rgba(255, 145, 66, 0) 87.37%);
+  mix-blend-mode: soft-light;
+}
+main .container .profile-img-ctn .img-ctn #transparent-2 {
+  width: 800px;
+  height: 30%;
+  background-color: #141313;
+  mix-blend-mode: soft-light;
+  position: absolute;
+  z-index: 9;
+  top: 30%;
+  bottom: 35%;
+  left: -25%;
+  transform: rotate(-40deg);
+  margin: 0;
+}
+
+/*Footer section*/
+footer {
+  width: 100%;
+  height: 25px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+footer #ft-txt {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: smaller;
+  padding-top: 5px;
+}/*# sourceMappingURL=styles.css.map */
